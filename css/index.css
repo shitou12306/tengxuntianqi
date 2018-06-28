@@ -1,0 +1,308 @@
+@import url(base.css);
+.main{
+	width: 100%;
+	height: 4.7rem;
+	background-image: -webkit-linear-gradient(-90deg,#50ade8,#7ae0fa);
+	overflow: hidden;
+    position: relative;
+    text-align: center;
+    background: url('../img/screen.png') no-repeat,url('../img/screen2.png') no-repeat,url('../img/hushui.png') no-repeat no-repeat, -webkit-linear-gradient(-90deg,#50ade8,#7ae0fa);
+    background-position: bottom;
+    background-size: 100% auto;	
+}
+i{
+	color: #fff;
+	line-height: 0.16rem;
+	display: block;
+}
+#back{
+	position: absolute;
+    height: 0.22rem;
+    width: 0.22rem;
+    top: 0.15rem;
+    left: 0.08rem;
+    font-size: 0.18rem;
+    color: #fff;
+}
+#voice{
+	display: block;
+	position: absolute;
+    height: 0.22rem;
+    width: 0.22rem;
+    top: 0.15rem;
+    right: 0.38rem;
+}
+#fenxiang{
+	position: absolute;
+    right: 0.08rem;
+    top: 0.15rem;
+    width: 0.22rem;
+    height: 0.22rem;
+}
+#txt-location{
+    height: 16px;
+    line-height: 16px;
+    width: 76%;
+    margin: 18px 12% 6px;
+    font-size: 16px;
+    color: #fff;
+    -webkit-tap-highlight-color: transparent;
+}
+#du{
+    font-size: 62px;
+    color: #fff;
+    line-height: 62px;
+    height: 62px;
+    margin-top: 66px;
+    position: relative;
+}
+.ct-aqi{
+	box-shadow: 0 1px 1px 0 rgba(0,0,0,.12);
+    height: 44px;
+    padding: 8px 12px;
+    position: absolute;
+    border-radius: 8px;
+    top: 67px;
+    left: 8px;
+    background: #ffbf62;
+    z-index: 2;
+    background-color: #f0cc35;
+    box-sizing: border-box;
+}
+#til{
+    opacity: .8;
+    font-size: 12px;
+    color: #fff;
+    line-height: 12px;
+    height: 12px;
+    margin-bottom: 3px;
+}
+#val{
+    margin-top: 2px;
+    font-size: 12px;
+    color: #fff;
+    height: 14px;
+    line-height: 14px;
+}
+#gwbox{
+	position: absolute;
+    top: 67px;
+    right: 0;
+    text-align: right;
+    line-height: 0;
+    z-index: 2;
+}
+.gw{
+	padding: 1px 6px;
+    font-size: 12px;
+    color: #fff;
+    height: 24px;
+    line-height: 24px;
+    border-bottom-left-radius: 12px;
+    border-top-left-radius: 12px;
+    margin-bottom: 12px;
+    background: rgba(0,0,0,.3);
+    text-align: left;
+    overflow: hidden;
+    float: right;
+    clear: both;
+}
+#weather{
+	font-size: 22px;
+    color: #fff;
+    line-height: 22px;
+    height: 22px;
+    margin-top: 8px;
+}
+#wind{
+	margin-top: 10px;
+    height: 14px;
+    position: relative;
+}
+.feng{
+	height: 14px;
+    line-height: 14px;
+    font-size: 14px;
+    color: #fff;
+    position: absolute;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+.shidu{
+	height: 14px;
+    line-height: 14px;
+    font-size: 14px;
+    color: #fff;
+    position: absolute;
+    width: 100%;
+    top: 0;
+    left: 0;
+    display: none;
+}
+#tips{
+	font-size: 16px;
+    color: #fff;
+    line-height: 1.5;
+    height: 16px;
+    margin: 50px 60px 0;
+    position: relative;
+    z-index: 2;
+}
+
+/* 第二 */
+#sec-tomorrow {
+    background: #fff;
+    height: 103px;
+    padding-top: 26px;
+    border-bottom: 1px solid #e4e4e4;
+    margin-bottom: 10px;
+    position: relative;
+}
+.item{
+	 float: left;
+    width: 50%;
+    height: 52px;
+    font-size: 14px;
+    color: #434343;
+    line-height: 14px;
+    padding: 0 20px;
+    box-sizing: border-box;
+}
+.top{
+	height: 12px;
+    margin-bottom: 13px;
+}
+.bottom{
+	height: 22px;
+}
+.date {
+    float: left;
+}
+.temperature {
+    float: right;
+}
+.weather {
+    float: left;
+    height: 22px;
+    line-height: 22px;
+}
+.logo {
+    float: right;
+    height: 22px;
+    width: 22px;
+}
+/* 第三 */
+#sec-hours {
+    height: 136px;
+    border-bottom: 1px solid #e4e4e4;
+    background-color: #fff;
+    overflow-x: auto;
+    overflow-y: hidden;
+    margin-bottom: 10px;
+    padding-top: 30px;
+}
+.hours{
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+}
+.hours li{
+	text-align: center;
+	line-height: 136px;
+	/* background: pink; */
+	flex-shrink:0;
+	width: 80px; 
+}
+#sec-hours::-webkit-scrollbar{
+	height: 0;
+}
+.txt-time {
+    font-size: 12px;
+    line-height: 12px;
+    height: 12px;
+    color: #999;
+}
+.icon {
+    height: 24px;
+    width: 24px;
+    display: block;
+    margin: 15px auto;
+}
+.txt-degree{
+    font-size: 14px;
+    color: #434343;
+    line-height: 14px;
+    height: 14px;
+    position: relative;
+}
+/* 第四 */
+#sec-days {
+    border-top: 1px solid #e4e4e4;
+    border-bottom: 1px solid #e4e4e4;
+    background-color: #fff;
+    /* height: 391px; */
+    padding-top: 25px;
+    margin-bottom: 10px;
+    position: relative;
+    overflow-x: auto;
+    overflow-y: hidden;
+}
+.days{
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+}
+.days li{
+	text-align: center;
+	width: 53px;
+}
+.days .day{
+	font-size: 12px;
+    color: #999;
+    line-height: 12px;
+    height: 12px;
+}
+.days .date{
+	font-size: 12px;
+    color: #999;
+    line-height: 12px;
+    height: 12px;
+    margin: 10px  4px;
+}
+.ct-daytime{
+	/* text-align: center; */
+
+}
+.days .weather{
+	font-size: 14px;
+    color: #434343;
+    line-height: 14px;
+    height: 14px;
+   margin: 16px 10px 60px;
+}
+.days .icon{
+	display: block;
+	width: 24px;
+    height: 24px;
+    display: block;
+    opacity: .5;
+    padding: 0 10px;
+}
+.wind {
+    font-size: 12px;
+    color: #b2b2b2;
+    line-height: 12px;
+    height: 12px;
+    width: 40px;
+    margin: 0 auto 6px;
+    overflow: hidden;
+}
+.ct-night .weather{
+	font-size: 14px;
+    color: #434343;
+    line-height: 14px;
+    height: 14px;
+    margin: 16px 10px 60px;
+  /*   width: 60px; */
+}
