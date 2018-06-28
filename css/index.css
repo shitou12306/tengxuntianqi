@@ -217,6 +217,9 @@ i{
 #sec-hours::-webkit-scrollbar{
 	height: 0;
 }
+#sec-days::-webkit-scrollbar{
+    height: 0;
+}
 .txt-time {
     font-size: 12px;
     line-height: 12px;
@@ -256,6 +259,7 @@ i{
 .days li{
 	text-align: center;
 	width: 53px;
+    flex-shrink:0;
 }
 .days .day{
 	font-size: 12px;
